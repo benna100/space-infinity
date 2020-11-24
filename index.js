@@ -24,6 +24,10 @@ setInterval(() => {
     points++;
   }
 
+  if (points > 9) {
+    console.log("good job");
+  }
+
   renderPoints(points);
 }, 1000);
 
