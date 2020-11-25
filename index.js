@@ -25,7 +25,7 @@ setInterval(() => {
   }
 
   if (points > 9) {
-    console.log("good job");
+    console.log("good job!");
   }
 
   renderPoints(points);
